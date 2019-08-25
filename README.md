@@ -1,0 +1,23 @@
+# Toggle color scheme and sublime theme by one hotkey at once
+
+Example sublime-keymap file:
+
+```json
+[
+    {
+        "keys": ["ctrl+shift+f9"], "command": "toggle_colors",
+        "args":
+        {
+            "dark_colors": {
+                "color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).sublime-color-scheme",
+                "theme": "Solarized Space Dark.sublime-theme"
+            },
+            "light_colors": {
+                "color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme",
+                "theme": "Solarized Space Light.sublime-theme"
+            },
+        }
+    }
+]
+```
+
